@@ -167,12 +167,11 @@ $ git commit -amend -m "描述信息"
 // 仅撤销提交行为，而保留其他内容
 $ git reset --soft HEAD <hash>
 ```
-```
 
 取消暂存的文件：
 ```
-$ git reset HEAD <file>
 // 此时文件已经是修改未暂存的状态了
+$ git reset HEAD <file>
 ```
 
 撤销对文件的修改，**慎用！**：
