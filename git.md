@@ -281,6 +281,25 @@ $ git fetch [remote-shortame | remote-branch]
 $ git push <remote-shortname> --delete <branch-name>
 ```
 
+### git stash
+
+[暂存](https://www.jianshu.com/p/16adec527aed)
+
+```
+$ git stash list
+$ git stash pop stash@{num}
+$ git stash apply stash@{num}
+$ git stash drop stash@{num}
+$ git stash clear
+```
+
+## git alias
+
+```
+git config --global alias.vv "branch -vv"
+git config --global alis.ss "status -s"
+```
+
 [lifecycle]: https://www.progit.cn/#_%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93
 
 [commit-message-guidelines]: https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines
@@ -288,10 +307,6 @@ $ git push <remote-shortname> --delete <branch-name>
 [git_reset]:https://www.progit.cn/#_git_reset
 
 [data_recovery]:https://www.progit.cn/#_data_recovery
-
-
-### git stash
-https://www.jianshu.com/p/16adec527aed
 
 
 
