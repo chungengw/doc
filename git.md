@@ -260,6 +260,8 @@ $ git checkout -b <branch-name>
 
 ### 合并
 
+[git rebase](http://www.bubuko.com/infodetail-3729370.html)
+
 ```
 // 非快速合并
 $ git merge --no-ff <branch-name>
