@@ -165,7 +165,7 @@ $ git commit --amend
 $ git commit -amend -m "描述信息"
 
 // 仅撤销提交行为，而保留其他内容
-$ git reset --soft HEAD <hash>
+$ git reset --soft <hash>
 ```
 
 取消暂存的文件：
