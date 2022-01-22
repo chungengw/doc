@@ -1,0 +1,1 @@
+https://humanwhocodes.com/blog/2009/05/12/cookies-and-security/
