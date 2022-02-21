@@ -260,7 +260,13 @@ $ git checkout -b <branch-name>
 
 ### 合并
 
-[git rebase](http://www.bubuko.com/infodetail-3729370.html)
+git rebase:
+  - rebase操作可以把本地未push的分叉提交历史整理成直线。
+  - rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。
+
+[廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/12162895278236480)
+[飞GieGie](https://www.cnblogs.com/qukun/p/14435309.html)
+[bubuko.com](http://www.bubuko.com/infodetail-3729370.html)
 
 ```
 // 非快速合并
