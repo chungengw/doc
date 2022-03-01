@@ -264,7 +264,12 @@ git rebase:
   - rebase操作可以把本地未push的分叉提交历史整理成直线。
   - rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。
 
-[廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/12162895278236480)
+> 注意：
+> 不要在公共分支使用rebase。
+> 本地和远端对应同一条分支,优先使用rebase,而不是merge。
+
+[曹九朵_](https://www.jianshu.com/p/4079284dd970)
+[廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600/1216289527823648)
 [飞GieGie](https://www.cnblogs.com/qukun/p/14435309.html)
 [bubuko.com](http://www.bubuko.com/infodetail-3729370.html)
 
