@@ -62,6 +62,11 @@ $ cat ~/.ssh/id_dsa.pub
 
 > GitHub 有一个十分详细的针对数十种项目及语言的 .gitignore 文件列表，你可以在 https://github.com/github/gitignore 找到它.
 
+文件/目录已被commit，但后续不需要再跟踪(此操作不会产生任何变更，文件依然保留在仓库中)
+```
+git update-index --skip-worktree <file | path>
+```
+
 
 ## 命令的使用
 
