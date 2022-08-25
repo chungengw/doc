@@ -1,0 +1,19 @@
+dpi：每英寸多少点
+dp：独立像素，虚拟单位，又称设备无关像素，1dp的长度相当于一个160dpi的屏幕上一个物理像素的长度
+px = dp * (dpi / 160)
+
+======
+
+infura.io:
+Lv： wangcg@lanzev.com
+
+
+etheruem
+https://infura.io/dashboard
+https://ethereum.org/en/developers/docs/accounts/
+
+获取主网 Gas Price：
+https://docs.ethgasstation.info/gas-price#gas-price
+
+获取 Ropsten 网络货币：
+https://moonborrow.com/
